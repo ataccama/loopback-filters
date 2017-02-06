@@ -6,8 +6,18 @@ LoopBack**.
 ## Install
 
 ```sh
-$ npm install loopback-filters
+$ npm install ataccama/loopback-filters
 ```
+
+```sh
+$ yarn add ataccama/loopback-filters
+```
+
+## This fork
+
+This fork adds a new `ilike` filter - a case- and diacritics-insensetive `like` filter.
+
+Filters will also return `false` on `undefined` values.
 
 ## Usage
 
